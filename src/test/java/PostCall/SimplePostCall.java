@@ -30,5 +30,7 @@ public class SimplePostCall {
 
         Assert.assertEquals(response.statusCode(),200);
 
+        System.out.println("sucess");
+
     }
 }
