@@ -28,7 +28,7 @@ public class SimplePostCall {
 
      Response response= RestUtils.performPost(endpoint,requestBody,new HashMap<>());
 
-        Assert.assertEquals(response.statusCode(),200);
+        Assert.assertEquals(response.statusCode(),201);
 
         System.out.println("sucess");
 
